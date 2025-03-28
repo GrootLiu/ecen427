@@ -2,6 +2,6 @@
 
 // Print hello world on the board.
 int main() {
-  printf("Hello, World!\n");
+  printf("Hello, World! Groot!\n");
   return 0;
 }

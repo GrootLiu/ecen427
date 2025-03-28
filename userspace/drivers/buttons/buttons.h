@@ -9,6 +9,7 @@ extern "C" {
 #endif
 
 #define BUTTONS_SUCCESS 0
+#define BUTTONS_ERROR -1
 #define BUTTONS_0_MASK 0x1
 #define BUTTONS_1_MASK 0x2
 #define BUTTONS_2_MASK 0x4

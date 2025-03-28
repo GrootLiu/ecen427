@@ -9,6 +9,7 @@ extern "C" {
 #endif
 
 #define SWITCHES_SUCCESS 0  // value of an success
+#define SWITCHES_ERROR -1
 #define SWITCHES_0_MASK 0x1 // The mask for button zero
 #define SWITCHES_1_MASK 0x2 // The mask for button one
 #define SWITCHES_ALL_MASK 0x3

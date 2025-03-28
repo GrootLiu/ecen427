@@ -8,6 +8,7 @@ extern "C" {
 #endif
 
 #define INTC_SUCCESS 0
+#define INTC_ERROR -1
 
 // Initializes the driver (opens UIO file and calls mmap)
 // devDevice: The file path to the uio dev file
@@ -39,8 +40,8 @@ uint32_t intc_pending_nonblocking(int timeout);
 // irq_mask: Bitmask of interrupt lines to acknowledge.
 void intc_ack_interrupt(uint32_t irq_mask);
 
-// // Instruct the UIO to enable interrupts for this device in Linux
-// // (see the UIO documentation for how to do this)
+// Instruct the UIO to enable interrupts for this device in Linux
+// (see the UIO documentation for how to do this)
 void intc_enable_uio_interrupts();
 
 // Enable interrupt line(s)

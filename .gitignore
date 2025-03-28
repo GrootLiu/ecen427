@@ -35,3 +35,4 @@ hw/ecen427
 
 /tools
 /cross-compiled
+/.vscode/
